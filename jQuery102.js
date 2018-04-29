@@ -35,6 +35,8 @@ $('#myDiv').click(function(){
     alert(attri);
 });
 
+new text
+
 $(document).ready(function() {
     $('#ajaxBox').click(function () {
         $('#ajaxBox').load('testtext.txt');
