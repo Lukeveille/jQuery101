@@ -3,10 +3,6 @@ $('#btn').click(function() {
     alert(x + '\ngood to go');
 });
 
-var a1 = 194;
-var a2 = 106;
-var time = 1000;
-
 $('#myDiv').hover(
     function() {
         $(this).html('BIG');
@@ -38,3 +34,9 @@ $('#myDiv').click(function(){
     var attri = $('#myDiv').data("attr");
     alert(attri);
 });
+
+$(document).ready(function() {
+    $('#ajaxBox').click(function () {
+        $('#ajaxBox').load('testtext.txt');
+    })
+})

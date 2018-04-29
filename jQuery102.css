@@ -8,11 +8,13 @@ input {
     font-size: 20px;
     margin-top: 20px;
     text-align: center;
+    border-radius: 5px;
 }
 #myDiv {
     display: inline-block;
     border-radius: 8px;
     background-color:rgb(105, 194, 105);
+    border: 2px solid red;
     width: 10%;
     height: 50px;
 }
@@ -22,6 +24,10 @@ input {
     background-color:rgb(105, 194, 105);
     width: 10%;
     height: 50px;
+}
+#ajaxBox {
+    background-color: darkblue;
+    border: 2px solid red;
 }
 
 t {
