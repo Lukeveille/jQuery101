@@ -35,10 +35,14 @@ $('#myDiv').click(function(){
     alert(attri);
 });
 
-new text
-
 $(document).ready(function() {
     $('#ajaxBox').click(function () {
-        $('#ajaxBox').load('testtext.txt');
-    })
-})
+        $.ajax({
+            url: 'testtext.txt',
+            success: function(data) {
+                $('#ajaxBox').css('backgroundColor', data);
+                $('#ajaxBox').load('testtits.txt');
+            }
+        });
+    });
+});
